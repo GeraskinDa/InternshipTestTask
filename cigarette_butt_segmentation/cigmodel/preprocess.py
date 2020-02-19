@@ -413,7 +413,7 @@ def save_augment_data(img, mask, weight, path, name):
     mask : PIL Image format
         Mask that should be saved.
     weight : PIL Image format
-        Weight that should be saved.
+        Weight that should be saved.    
 
     """
     img.save(f"{path}/augment/images/aug{name}")
